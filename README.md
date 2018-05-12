@@ -1,3 +1,5 @@
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/amueller/introduction_to_ml_with_python/master)
+
 # Introduction to Machine Learning with Python
 
 This repository holds the code for the forthcoming book "Introduction to Machine
@@ -32,6 +34,11 @@ from IPython.display import display
 ```
 Please add this line if you see an error involving ``display``.
 
+
+The first print of the book used a function called ``plot_group_kfold``.
+This has been renamed to ``plot_label_kfold`` because of a rename in
+scikit-learn.
+
 ## Setup
 
 To run the code, you need the packages ``numpy``, ``scipy``, ``scikit-learn``, ``matplotlib``, ``pandas`` and ``pillow``.
@@ -54,7 +61,7 @@ You also need to install the graphiz C-library, which is easiest using a package
 If you are using OS X and homebrew, you can ``brew install graphviz``. If you are on Ubuntu or debian, you can ``apt-get install graphviz``.
 Installing graphviz on Windows can be tricky and using conda / anaconda is recommended.
 
-## Errata
+## Submitting Errata
 
 If you have errata for the (e-)book, please submit them via the [O'Reilly Website](http://www.oreilly.com/catalog/errata.csp?isbn=0636920030515).
 You can submit fixed to the code as pull-requests here, but I'd appreciate it if you would also submit them there, as this repository doesn't hold the
